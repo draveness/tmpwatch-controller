@@ -20,8 +20,6 @@ spec:
           resources:
             requests:
               cpu: "0"
-          securityContext:
-            privileged: true
           volumeMounts:
             - mountPath: /tmp/
               name: tmp-volume
