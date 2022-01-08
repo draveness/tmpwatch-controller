@@ -15,7 +15,7 @@ spec:
         app.kubernetes.io/name: tmpwatch-controller
     spec:
       containers:
-        - image: ghcr.io/draveness/tmpwatch-controller:latest
+        - image: ghcr.io/draveness/tmpwatch-controller:v0.2.0
           name: tmpwatch-controller
           resources:
             requests:

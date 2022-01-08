@@ -1,1 +1,1 @@
-*/5 * * * * root /usr/bin/tmpwatch -amv 1 /tmp
+*/5 * * * * root /usr/bin/tmpwatch -amv 4 /tmp
